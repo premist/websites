@@ -1,13 +1,12 @@
 {
-  "name": "docs",
-  "version": "1.0.0",
+  "name": "premi.st",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 3001 --turbo",
+    "dev": "next dev --port 3002 --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "^14.2.3",
