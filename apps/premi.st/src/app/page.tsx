@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="font-sans text-lg tracking-littlewide text-slate-950">
       <div>
         <div className="container px-12 sm:px-20 py-6 sm:py-10 flex flex-row justify-between gap-x-4">
           <h1>premi.st</h1>
