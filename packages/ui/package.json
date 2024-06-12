@@ -5,7 +5,6 @@
     "**/*.css"
   ],
   "exports": {
-    "./styles.css": "./dist/index.css",
     "./card": "./src/card.tsx",
     "./header": "./src/header.tsx"
   },
