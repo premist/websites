@@ -1,6 +1,6 @@
-import { Header } from "@repo/ui/header"
+import { Header } from "@repo/ui/header";
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <main className="font-sans text-lg tracking-littlewide text-slate-950">
       <div>
