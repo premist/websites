@@ -6,10 +6,10 @@ const config: Omit<Config, "content"> = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Lab Grotesque Regular"', ...defaultTheme.fontFamily.sans],
+        sans: ['"Lab Grotesque"', "'Gothic A1 LabGrtsqMatch'", ...defaultTheme.fontFamily.sans],
       },
       letterSpacing: {
-        littlewide: '.01em',
+        littlewide: '0em',
       }
     },
   },

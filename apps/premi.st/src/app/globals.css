@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:host, html, body {
+  text-rendering: optimizeLegibility;
+  font-synthesis: none;
+  font-feature-settings: "ss02", "rlig";
+}
