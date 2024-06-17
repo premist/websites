@@ -30,6 +30,7 @@ jobs:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           flavor: |
             latest=auto
+            prefix=premist-
           tags: |
             type=edge,branch=main
             type=sha
