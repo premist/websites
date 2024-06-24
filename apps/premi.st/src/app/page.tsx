@@ -1,4 +1,5 @@
 import { Header } from "@repo/ui/header";
+import Link from "next/link";
 
 export default function Home(): JSX.Element {
   return (
@@ -16,7 +17,9 @@ export default function Home(): JSX.Element {
         <div className="border-t-2 border-neutral-200 ml-12 md:ml-20" />
 
         <div className="container px-10 md:px-20 py-5 md:py-10 flex flex-col md:flex-row">
-          <h1 className="md:w-[50%] pr-10">blog &rarr; si.mpli.st</h1>
+          <p className="md:w-[50%] pr-10">
+            <Link href="https://si.mpli.st" target="_blank">blog &rarr; si.mpli.st</Link>
+          </p>
           <p className="md:w-[50%]">contact &rarr; public@premi.st</p>
         </div>
       </div>
