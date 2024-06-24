@@ -13,6 +13,7 @@ module.exports = {
     ],
   },
   output: "standalone",
+  swrDelta: 60,
   experimental: {
     outputFileTracingRoot: path.join(__dirname, "../../"),
   },
